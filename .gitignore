@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+.env
+
+# AI Models (large binary files — download separately)
+models/*.onnx
+
+# Data & embeddings (user-specific, not for version control)
+data/users/
+data/encodings.pkl
+data/logs.json
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
